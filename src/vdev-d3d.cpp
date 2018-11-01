@@ -8,6 +8,8 @@ extern "C" {
 #include "libavformat/avformat.h"
 }
 
+#define abs(x) (x < 0 ? -x : x)
+
 // Ô¤±àÒë¿ª¹Ø
 #define ENABLE_WAIT_D3D_VSYNC    FALSE
 #define ENABLE_D3DMULTISAMPLE_X4 FALSE
